@@ -39,38 +39,43 @@
 
 // =================================================================================================
 
+
+
+
+
+
+
+
 #include<iostream>
 using namespace std;
 int main()
 {
-    int arr[]={12,35,42,56,325,751,284,2,3,64,1,856,1200};
-    int s;
-    int temp;
-    int c=0;
+    int arr[]={25,36,75,94,6,35,85,65,421,52,46,85,748,546,67852,5647,95762};
+    int s,temp,c=0;
     s=sizeof(arr)/sizeof(arr[0]);
     cout<<"\nArray\n";
-    for(int i=0; i<s; i++)
+    for(int i=0; i<s; ++i)
     {
         cout<<arr[i]<<"\t";
     }
     for(int j=0; j<s; ++j)
     {
-        for(int i=0; i<s-i-1; ++i)
+        for(int a=0; a<s-j-1; ++a)
         {
-            if(arr[i]>arr[i+1])
+            if(arr[a]>arr[a+1])
             {
-                temp=arr[i];
-                arr[i]=arr[i+1];
-                arr[i+1]=temp;
-                c++;
+              temp=arr[a];
+              arr[a]=arr[a+1];
+              arr[a+1]=temp;
+              c++;
             }
         }
         if(j!=s-1 && c==0)
         {
-            cout<<"\nTHIS IS SORTED DURING RUNTIME\n";
+        cout<<"\nAlready sorted array in runtime\n";
         }
     }
-    cout<<"\nAfter applying bublle sort\n";
+    cout<<"\nAfter applying bubble sort\n";
     for(int i=0; i<s; ++i)
     {
         cout<<arr[i]<<"\t";
