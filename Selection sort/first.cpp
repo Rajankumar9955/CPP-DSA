@@ -1,37 +1,79 @@
 /*
 2 
 */
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int arr[]={12,35,2,13,20,10,25,6,8,9,74,12};
+//     int s=sizeof(arr)/sizeof(arr[0]);
+//     int chotu;
+//     cout<<"\nArray\n";
+//     for(int i=0; i<s; ++i)
+//     {
+//         cout<<arr[i]<<"\t";
+//     }
+//     for(int i=0; i<s; ++i)
+//     {
+      
+//     chotu=i;
+//     for(int j=i; j<s; ++j)
+//     {
+//         if(arr[chotu]>arr[j])
+//         {
+//             chotu=j;
+//         }
+//     }
+//     if(arr[chotu]!=arr[i])
+//     {
+//         int temp;
+//         temp=arr[i];
+//         arr[i]=arr[chotu];
+//         arr[chotu]=temp;
+//     }
+//  }
+//  cout<<"\nafter applying selection sort\n";
+//  for(int i=0; i<s; ++i)
+//  {
+//     cout<<arr[i]<<"\t";
+//  }
+// }
+//====================================================================================================
+
+
 #include<iostream>
 using namespace std;
 int main()
 {
-    int arr[]={12,5,1,65,32,4,96,42};
-    int temp,s,n=0;
+    int arr[]={12,10,21,52,32,41,25,36,41,25,63,52,856,475,689};
+    int s,chotu,temp;
     s=sizeof(arr)/sizeof(arr[0]);
     cout<<"\narray\n";
     for(int i=0; i<s; ++i)
     {
         cout<<arr[i]<<"\t";
     }
-    for(int j=0; j<s; ++j)
+    for(int i=0; i<s; ++i)
     {
-        for(int a=0; a<s-j-1; ++a)
+        chotu=i;
+        for(int j=i; j<s; ++j)
         {
-            if(arr[a]>arr[a+1])
-            {
-                temp=arr[a];
-                arr[a]=arr[a+1];
-                arr[a+1]=temp;
-                 n++;
-
-            }
+           if(arr[chotu]>arr[j])
+           {
+               chotu=j;
+           }
+        }
+        if(arr[chotu]!=arr[i])
+        {
+            temp=arr[i];
+            arr[i]=arr[chotu];
+            arr[chotu]=temp;
         }
     }
-    cout<<"\nafter applying selection sort\n";
-    for(int r=0; r<s; ++r)
+    cout<<"\nfter applying selection sort\n";
+    for(int i=0; i<s; ++i)
     {
-        cout<<arr[r]<<"\t";
+        cout<<arr[i]<<"\t";
     }
-
 }
-
