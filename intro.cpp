@@ -45,9 +45,9 @@ sorting can be performing using several technique or methods some are follows
 */
 
 
-//selection sort mein 3 case mein 
+
 //stable means duplicate value in array
-//selection sort not stable 
+//selection sort not stable depend on the value
 //s.c o(1)
-//t,c o(n*n)
+//t,c o(n*n) selection sort mein 3 case mein o(n*n)
 //inplace yes;
