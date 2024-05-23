@@ -1,7 +1,7 @@
 //divide and conquer
 //quick sort coding 
 //time complexity :- best :- o(n*n)        worst :-  O(n*n)         avg:- O(nlogn)        
-//space complexity :- o(1) that is constant;
+//space complexity :- o(1) that is constant;  
 //inplace/internal :- yes
 //stable :- yes 
 //quick sort is Elements based 

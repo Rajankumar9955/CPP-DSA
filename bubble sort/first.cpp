@@ -1,3 +1,7 @@
+
+//bubble sort in elements and strucure based
+
+
 //  #include<iostream>
 //  using namespace std;
 //  int main()

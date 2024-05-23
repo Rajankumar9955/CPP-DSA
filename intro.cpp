@@ -45,9 +45,10 @@ sorting can be performing using several technique or methods some are follows
 */
 
 
-
+//unstable means duplicate value in array but change the position and cross to each other then unstable 
 //stable means duplicate value in array
 //selection sort not stable depend on the value
 //s.c o(1)
 //t,c o(n*n) selection sort mein 3 case mein o(n*n)
 //inplace yes;
+//inplace means when use 2nd array that's called not inplace
