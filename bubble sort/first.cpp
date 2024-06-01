@@ -43,14 +43,54 @@
 
 // =================================================================================================
 
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int arr[]={25,36,75,94,6,35,85,65,421,52,46,85,748,546,67852,5647,95762};
+//     int s,temp,c=0;
+//     s=sizeof(arr)/sizeof(arr[0]);
+//     cout<<"\nArray\n";
+//     for(int i=0; i<s; ++i)
+//     {
+//         cout<<arr[i]<<"\t";
+//     }
+//     for(int j=0; j<s; ++j)
+//     {
+//         for(int a=0; a<s-j-1; ++a)
+//         {
+//             if(arr[a]>arr[a+1])
+//             {
+//               temp=arr[a];
+//               arr[a]=arr[a+1];
+//               arr[a+1]=temp;
+//               c++;
+//             }
+//         }
+//         if(j!=s-1 && c==0)
+//         {
+//         cout<<"\nAlready sorted array in runtime\n";
+//         }
+//     }
+//     cout<<"\nAfter applying bubble sort\n";
+//     for(int i=0; i<s; ++i)
+//     {
+//         cout<<arr[i]<<"\t";
+//     }
+// }
+
+
+
+
+//================================================================================
 #include<iostream>
 using namespace std;
 int main()
 {
-    int arr[]={25,36,75,94,6,35,85,65,421,52,46,85,748,546,67852,5647,95762};
-    int s,temp,c=0;
+    int arr[]={12,3,2,52,586,25,35,6,2,52,45,654,46,4,5,5,2,5,4};
+    int s,temp=0,c=0;
     s=sizeof(arr)/sizeof(arr[0]);
-    cout<<"\nArray\n";
+    cout<<"\narray\n";
     for(int i=0; i<s; ++i)
     {
         cout<<arr[i]<<"\t";
@@ -61,19 +101,15 @@ int main()
         {
             if(arr[a]>arr[a+1])
             {
-              temp=arr[a];
-              arr[a]=arr[a+1];
-              arr[a+1]=temp;
-              c++;
+                temp=arr[a];
+                arr[a]=arr[a+1];
+                arr[a+1]=temp;
+                c++;
             }
-        }
-        if(j!=s-1 && c==0)
-        {
-        cout<<"\nAlready sorted array in runtime\n";
         }
     }
     cout<<"\nAfter applying bubble sort\n";
-    for(int i=0; i<s; ++i)
+    for(int i=0; i<s; i++)
     {
         cout<<arr[i]<<"\t";
     }
