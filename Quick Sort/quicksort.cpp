@@ -65,9 +65,9 @@ int main()
     qs(a,0,n-1);
     cout<<"\nAfter Quick Sort\n";
     printarr(a,n);
-} */
-
-
+} 
+*/
+//=========================================================================================
 
 #include<iostream>
 using namespace std;
@@ -104,13 +104,13 @@ int part(int arr[],int low , int high)
         return j;
 
     }
-}
+};
 void qs(int arr[], int low , int high)
 {
    int pv;
    if(low<high)
    {
-    pv(arr, low, high);
+    pv=part(arr, low, high);
     qs(arr, low,pv-1);
     qs(arr,pv+1, high);
    }
@@ -132,3 +132,4 @@ int main()
     printar(arr,n);
 
 }
+
