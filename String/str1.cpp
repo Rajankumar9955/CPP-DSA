@@ -11,7 +11,7 @@ int main()
     cout<<s<<"\n";
     cout<<j<<"\n";
     cout<<"enter the name:";
-    getline(cin,s); //getline space ke liye use krte hai
+    getline(cin,s); //getline space ke baad v words print krne ke liye use krte hai
     cout<<s<<"\t";
     //Length () :- for calculate lenght
     cout<<s.length()<<"\n";
