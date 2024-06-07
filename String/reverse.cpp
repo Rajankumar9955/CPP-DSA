@@ -10,7 +10,7 @@ int main()
     cout<<s1<<"\n";
     sort(s1.begin(),s1.end()); //accending
     cout<<s1<<"\n";
-    sort(s1.begin(),s1.end(),greater<int>());
+    sort(s1.begin(),s1.end(),greater<int>()); //sabse bada se print krta hai 
     cout<<s1<<"\n";
 }
 
