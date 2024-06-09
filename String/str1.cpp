@@ -1,5 +1,5 @@
 //char inialize krna prta hai baad mein initialize nahi kr sakte
-//string inialize kr sakte hai baad mein  v initialize  kr sakte
+//string inialize kr sakte hai or baad mein  v initialize  kr sakte
 #include<iostream>
 using namespace std;
 #include<string>
