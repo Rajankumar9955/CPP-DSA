@@ -1,5 +1,5 @@
 
-
+// =======================Static program===============================
 // #include<iostream>
 // using namespace std;
 // #include<array>
@@ -19,6 +19,7 @@
 //     }
 // }
 
+//Dymanically program=======================
 
 #include<iostream>
 using namespace std;
