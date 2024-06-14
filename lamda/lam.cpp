@@ -3,7 +3,9 @@
 #include<tuple>
 #include<algorithm>
 using namespace std;
+
 //lamda function:- anamymous class is class lamda function
+
 int show(int a)
 {
     return a>3;
