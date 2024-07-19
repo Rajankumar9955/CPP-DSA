@@ -3,11 +3,11 @@
 using namespace std;
 int main()
 {
-    vector<int>a={1,2,3,5};
+    vector<int>a={0,1,2,3,5};
     int n=a.size();
-    int sum=n*(a+1)/2;
+    int sum=n*(n+1)/2;
     int s=0;
-    for(int =0; i<a.size(); ++i)
+    for(int i=0; i<a.size(); ++i)
     {
         s+=a[i];
     }

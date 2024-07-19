@@ -28,15 +28,22 @@ int main()
             r--;
         }
     }
-        if(flag==1)
-        {
-            cout<<"true";
+        // if(flag==1)
+        // {
+        //     cout<<"true";
 
-        }
-        else
-        {
-            cout<<"false";
+        // }
+        // else
+        // {
+        //     cout<<"false";
            
+        // }
+        for(int i=0; i<a.size(); ++i)
+        {
+            if(a[i]+a[i]==target)
+            {
+                cout<<a[i]<<a[i];
+            }
         }
 
 }
