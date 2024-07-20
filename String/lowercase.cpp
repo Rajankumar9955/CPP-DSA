@@ -33,12 +33,12 @@ using namespace std;
 
 //=================================
 //================one line code for lower case=======================================
-// int main()
-// {
-//     string a="cybrom";
-//     transform(a.begin(),a.end(),a.begin(),::tolower);
-//     cout<<a;
-// }
+int main()
+{
+    string a="cybrom";
+    transform(a.begin(),a.end(),a.begin(),::tolower);
+    cout<<a;
+}
 
 //================one line for upper case ================================================
 // int main()
