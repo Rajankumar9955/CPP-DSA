@@ -49,8 +49,11 @@ using namespace std;
 //     pre(root);
 // }
 
+
+
+
 class node{
-    public: int data;
+    public:int data;
     class node *left,*right;
     node(int d)
     {
@@ -62,7 +65,7 @@ class node{
 node *create(node *root)
 {
     int x;
-    cout<<"Enter the value\n";
+    cout<<"enter the value:\n";
     cin>>x;
     root=new node(x);
     if(x==-10)
@@ -71,25 +74,23 @@ node *create(node *root)
     }
     cout<<"Enter the value for left node:"<<x<<"\n";
     root->left=create(root->left);
-
     cout<<"Enter the value for right node:"<<x<<"\n";
     root->right=create(root->right);
-
-    return root;
 }
-void pre(node *root)
+void res(node *root)
 {
     if(root==NULL)
     {
         return;
     }
     cout<<root->data<<"\t";
-    pre(root->left);
-    pre(root->right);
+    res(root->left);
+    res(root->right);
 }
+
 int main()
 {
     node *root=NULL;
     root=create(root);
-    pre(root);
+    res(root);
 }

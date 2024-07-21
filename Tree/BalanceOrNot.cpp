@@ -49,7 +49,7 @@ int main()
     root->l->r=new node(3);
     root->r=new node(8);
     root->r->r=new node(11);
-    root->r->r->r=new node(1);
+    // root->r->r->r=new node(1);
     bool c=isbal(root);
     if(c)
     {
