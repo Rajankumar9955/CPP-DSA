@@ -6,7 +6,7 @@ using namespace std;
 #include<array>
 int main()
 {
-  array<int, 5>a={1,0,2,0,4};
+  array<int, 5>a={0,0,2,0,4};
   array<int , 5>b;
   int c=0;
   for(int i=0; i<a.size(); ++i)

@@ -42,6 +42,7 @@ int main()
     node *root=NULL;
     root=bst(root,50);
     root=bst(root,80);
+    
     root=bst(root,50);
     root=bst(root,55);
     root=bst(root,18);
