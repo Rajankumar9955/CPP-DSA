@@ -16,7 +16,7 @@ int main()
 
 
 
-array<int,6>a={0,1,3,5,5,6};
+array<int,6>a={0,1,3,4,5,6};
 int n=a.size();
 int sum=n*(n+1)/2;
 int s=0;
@@ -26,3 +26,5 @@ for(int i=0; i<a.size(); ++i)
 }
 cout<<sum-s;
 }
+
+
