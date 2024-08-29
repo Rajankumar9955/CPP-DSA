@@ -16,6 +16,7 @@ int main()
     if(sum==target)
     {
         cout<<"True";
+        // cout<<l<<r;
         break;
     }
     else if(sum<target)
