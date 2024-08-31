@@ -5,7 +5,7 @@ int main()
 {
     vector<int>v{1,2,3,4,5,6,8};
     int r;
-    r=v.size();
+    r = v.size();
     int l=0;
     int sum=0;
     int target;
