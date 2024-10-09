@@ -21,6 +21,8 @@ int main()
     }
     for(auto p:b)
     {
+
         cout<<p<<"\t";
     }
+    
 }
