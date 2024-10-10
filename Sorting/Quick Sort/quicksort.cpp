@@ -77,8 +77,6 @@ int part(int arr[],int low , int high)
     int pvt=arr[low];
     int i=low+1;
     int j=high;
-
-
     do
     {
         while(arr[i]<pvt)
