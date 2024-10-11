@@ -81,6 +81,7 @@
    cout<<y.find("kumar")<<endl;
 
    cout<<"=================insert function============\n";
+   
    //============insert() function==================
    
    string b="Rajankr";
