@@ -17,7 +17,6 @@ int main()
     cout<<s.length()<<"\n";    //Length () :- for calculate length
 
 
-
     string s1="Bhopol";
     string s2="Bihar";
     s1.append(s2); //concatinate
