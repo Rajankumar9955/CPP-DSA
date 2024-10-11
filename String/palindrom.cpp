@@ -4,6 +4,7 @@ using namespace std;
 #include<algorithm>
 int main()
 {
+    
     string s;
     cin>>s;
     string k=s;
