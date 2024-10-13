@@ -47,16 +47,16 @@ void inOrder(node *root)
     cout<<root->data<<"\t";
     inOrder(root->right);
 }
-// void postOrder(node *root)
-// {
-//     if(root==NULL)
-//     {
-//         return;
-//     }
-//     postOrder(root->left);
-//     postOrder(root->right);
-//     cout<<root->data<<"\t";
-// }
+void postOrder(node *root)
+{
+    if(root==NULL)
+    {
+        return;
+    }
+    postOrder(root->left);
+    postOrder(root->right);
+    cout<<root->data<<"\t";
+}
 
 int main()
 {
