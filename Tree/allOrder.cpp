@@ -68,6 +68,4 @@ int main()
     inOrder(root);
     cout<<"\nPost-Order:\n";
     postOrder(root);
-    
-
 }
