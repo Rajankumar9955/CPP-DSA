@@ -37,26 +37,26 @@ void preOrder(node *root)
     preOrder(root->left);
     preOrder(root->right);
 }
-void inOrder(node *root)
-{
-    if(root==NULL)
-    {
-        return;
-    }
-    inOrder(root->left);
-    cout<<root->data<<"\t";
-    inOrder(root->right);
-}
-void postOrder(node *root)
-{
-    if(root==NULL)
-    {
-        return;
-    }
-    postOrder(root->left);
-    postOrder(root->right);
-    cout<<root->data<<"\t";
-}
+// void inOrder(node *root)
+// {
+//     if(root==NULL)
+//     {
+//         return;
+//     }
+//     inOrder(root->left);
+//     cout<<root->data<<"\t";
+//     inOrder(root->right);
+// }
+// void postOrder(node *root)
+// {
+//     if(root==NULL)
+//     {
+//         return;
+//     }
+//     postOrder(root->left);
+//     postOrder(root->right);
+//     cout<<root->data<<"\t";
+// }
 
 int main()
 {
