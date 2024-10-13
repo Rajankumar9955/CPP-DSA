@@ -57,7 +57,6 @@ void postOrder(node *root)
     postOrder(root->right);
     cout<<root->data<<"\t";
 }
-
 int main()
 {
     node *root=NULL;
