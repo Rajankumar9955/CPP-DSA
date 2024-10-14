@@ -128,6 +128,5 @@ int main()
     qs(arr,0,n-1);
     cout<<"\nafter quick sort\n";
     printar(arr,n);
-
 }
 
