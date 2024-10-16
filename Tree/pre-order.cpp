@@ -93,4 +93,5 @@ int main()
     node *root=NULL;
     root=create(root);
     res(root);
+    
 }
