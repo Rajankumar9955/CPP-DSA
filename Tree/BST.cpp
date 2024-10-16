@@ -11,6 +11,7 @@ class node{
     }
 };
 
+
 node *bst(node *root,int v)
 {
     if(root==NULL)
