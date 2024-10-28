@@ -87,7 +87,6 @@ void res(node *root)
     res(root->left);
     res(root->right);
 }
-
 int main()
 {
     node *root=NULL;
