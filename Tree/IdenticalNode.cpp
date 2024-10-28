@@ -1,8 +1,6 @@
 //=================================trees are identical node or not============================
 #include<iostream>
 using namespace std;
-
-
 class node
 {
     public:
