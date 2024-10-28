@@ -15,6 +15,7 @@ class cybrom
         cout<<"sum:"<<a+b;
     }
 };
+
 int main()
 {
     // cybrom<int,int>j(23,36);
