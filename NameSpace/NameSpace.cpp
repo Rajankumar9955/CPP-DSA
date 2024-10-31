@@ -3,6 +3,7 @@ using namespace std;
 namespace cybrom{
     int a=100;
 }
+
 using namespace cybrom;
 
    int main()
