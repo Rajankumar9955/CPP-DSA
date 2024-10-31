@@ -21,6 +21,7 @@
 
 //============================Dymanically program=======================
 
+
 // #include<iostream>
 // #include<array>
 // using namespace std;
