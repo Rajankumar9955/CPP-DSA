@@ -17,6 +17,7 @@ int main()
         cin>>name;
         v.push_back(make_pair(roll,name));
         //v.push_back({roll,name});
+        
     }
     cout<<"display the data\n";
     for(auto p:v)
