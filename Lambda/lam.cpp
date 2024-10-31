@@ -17,7 +17,6 @@ int main()
     cout<<[](int a){return  a++;}(3)<<"\n";
 
 
-
     vector<int>v{10,23,52,42,565,85,21};
     cout<<"Ascending order\n";
     sort(v.begin(),v.end());
