@@ -51,7 +51,6 @@
 using namespace std;
 class heap{
 
-
        int arr[5];
        int s,index;
        public:heap()

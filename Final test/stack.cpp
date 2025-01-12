@@ -15,7 +15,7 @@ class Stack{
             cout<<"Stack overflow"<<endl;
         }
         arr[++top]=x;
-        cout<<"pushed:"<<x<<"to stack\n";
+        cout<<"pushed:"<<x<<" to stack\n";
     }
     int pop()
     {
@@ -26,12 +26,11 @@ class Stack{
         }
         return arr[top--];
     }
-}
+};
 int main()
 {
     Stack s;
     s.push(50);
     s.push(40);
     s.push(30);
-    
 }
