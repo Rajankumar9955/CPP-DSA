@@ -31,7 +31,7 @@ int main()
 //================one line code for lower case=======================================
 // int main()
 // {
-//     string a="cybrom";
+//     string a="Cybrom";
 //     transform(a.begin(),a.end(),a.begin(),::tolower);
 //     cout<<a;
 // }

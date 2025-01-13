@@ -6,7 +6,7 @@
 using namespace std;
 #define n 5
 class stk
-{`
+{
     public:int *arr;
     int top;
     stk()

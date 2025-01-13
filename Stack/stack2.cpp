@@ -14,13 +14,14 @@ int main()
      cin>>n;
      for(int i=0; i<n; ++i)
      {
+       cout<<"Enter "<<i<<" index Element:";
         cin>>d;
         st.push(d);
      }
      cout<<"output\n";
      while(!st.empty())
      {
-        if(mn>st.top())   //if you have to print max the use (mn<st.top) or min ke liye (mn>st.top)
+        if(mn<st.top())   //if you have to print max the use (mn<st.top) or min ke liye (mn>st.top)
         {
             mn=st.top();
         }
