@@ -61,6 +61,27 @@ int main(){
     bool hashReating = false;
     for(int i=0; i<(int)input.size(); i++)
     {
-        
+        char c = input[i];
+        if(frequency[c]>1){
+            firstRepeating=c;
+            hashRepeating=true;
+            break;
+        }
     }
+
+    // 6 Ouput according to the problem statement;
+    if(!hasNonRepeating){
+        // All characters are repeating
+        cout<<"None";
+        if(hasRepeating){
+            cout<< " "<<firstRepeating;
+        }
+        cout<<endl;
+    }else
+    {
+        // we have a non repeating character
+        cout<<"first non repeating character "<<firstNonRepeating<<endl;
+        cout<<"most repeated character"<<mostRepeated<<"("<<maxfreq<<"times)"<<endl;
+    }
+    return 0;
 }
