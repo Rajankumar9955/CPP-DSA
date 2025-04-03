@@ -1,7 +1,4 @@
 
-
-
-
 #include<iostream>
 #include<vector>
 #include<queue>
@@ -17,7 +14,7 @@ int bfs(int start){
     queue<int>q;
     q.push(start);
     restored[start]=true;
-    itn savedTowers=1;
+    int savedTowers=1;
     
     while(!q.empty()){
         int tower=q.front();
@@ -39,20 +36,20 @@ int main()
     int n;
     cin>>n;
 
-    for(int i=1 i<=n; i++)
+    for(int i=1; i<=n; i++)
     {
-        cin>>cost[i] //read tower restoration costs
+        cin>>cost[i]; //read tower restoration costs
     }
 
     for(int i=0; i<n-1; i++)
     {
         int u,v;
         cin>>u>>v;
-        adj[u].push_back[v];
-        adj[v].push_back[u];
+        adj[u].push_back(v);
+        adj[v].push_back(u);
     }
     int maxSavedTowers=0;
-    for(int i=0; i,=n; i++)
+    for(int i=0; i<=n; i++)
     {
         fill(restored.begin(), restored.end(), false); //reset the restored status
         maxSavedTowers=max(maxSavedTowers,bfs(i));
