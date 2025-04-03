@@ -25,10 +25,13 @@ int bfs(int start){
 
         for(int neighbor : adj[tower]){
             if(!restored[neighbor]){
-
+              restored[neighbor]=true;
+              savedTowers++;
+              q.push(neighbor);
             }
         }
     }
+    return savedTowers;
 }
 
 int main()
@@ -49,4 +52,11 @@ int main()
         adj[v].push_back[u];
     }
     int maxSavedTowers=0;
+    for(int i=0; i,=n; i++)
+    {
+        fill(restored.begin(), restored.end(), false); //reset the restored status
+        maxSavedTowers=max(maxSavedTowers,bfs(i));
+    }
+    cout<<maxSavedTowers<<endl;
+    return 0;
 }
