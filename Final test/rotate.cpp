@@ -22,6 +22,9 @@
 //     }
 // }
 
+
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -31,10 +34,11 @@ int main() {
     int st;
     cout << "Enter the step: ";
     cin >> st;
-
+    
     int n = v.size();
+    vector<int> b(n);  
     if (st <= n) {
-        vector<int> b(n);  
+     
         for (int i = 0; i < n; i++) {
             b[(i + st) % n] = v[i];  
         }
